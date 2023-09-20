@@ -42,8 +42,14 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/EditorExtensions/Editor/1.MenuItemExample/MenuItemExample.cs" />
+     <Compile Include="Assets/EditorExtensions/Editor/2.IMGUIExample/IMGUIEditorWindowExample.cs" />
+     <Compile Include="Assets/EditorFramework/Editor/RootWindow.cs" />
+     <Compile Include="Assets/EditorExtensions/Editor/2.IMGUIExample/GUILayoutAPI.cs" />
+     <Compile Include="Assets/EditorExtensions/Editor/2.IMGUIExample/GUIAPI.cs" />
      <Folder Include="Assets/EditorExtensions/Editor" />
      <Folder Include="Assets/EditorExtensions/Editor/1.MenuItemExample" />
+     <Folder Include="Assets/EditorFramework/Editor" />
+     <Folder Include="Assets/EditorExtensions/Editor/2.IMGUIExample" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2020.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

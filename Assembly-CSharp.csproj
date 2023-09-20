@@ -44,6 +44,7 @@
      <Folder Include="Assets" />
      <Folder Include="Assets/EditorExtensions" />
      <Folder Include="Assets/Scenes" />
+     <Folder Include="Assets/EditorFramework" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2020.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
