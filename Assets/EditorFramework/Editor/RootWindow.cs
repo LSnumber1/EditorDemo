@@ -20,11 +20,7 @@ namespace EditorFramework
 
         private void OnEnable()
         {
-            var editorWindowType = typeof(EditorWindow);
-            // var m_Parent = editorWindowType.GetField("m_Parent", BindingFlags.Instance | BindingFlags.NonPublic);
-
-            mEditorWindowTypes = AppDomain.CurrentDomain.GetAssemblies().SelectMany(assembly => assembly.GetTypes())
-                .Where(type => type.IsSubclassOf(editorWindowType));
+            mEditorWindowTypes = typeof(EditorWindow).GetSubTypesWithClassInAssemblies<CustomEditorWindowAttribute>();
         }
 
         private void OnGUI()

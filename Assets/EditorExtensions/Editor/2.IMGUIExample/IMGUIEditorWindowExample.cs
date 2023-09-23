@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
@@ -13,11 +11,13 @@ namespace EditorExtensions
         {
             GetWindow<IMGUIEditorWindowExample>().Show();
         }
-
+        
         enum APIMode
         {
             GUILayout,
-            GUI
+            GUI,
+            EditorGUI,
+            EditorGUILayout,
         }
 
         enum PageId
@@ -30,6 +30,8 @@ namespace EditorExtensions
         private PageId mCurentPageID;
         private GUILayoutAPI mGuiLayoutAPI = new GUILayoutAPI();
         private GUIAPI mGuiAPI = new GUIAPI();
+        private EditorGUIAPI mEditorGUIAPI = new EditorGUIAPI();
+        private EditorGUILayoutAPI mEditorGUILayout = new EditorGUILayoutAPI();
 
         private void OnGUI()
         {
@@ -54,6 +56,13 @@ namespace EditorExtensions
             } else if (mCurrentAPIMode == APIMode.GUI)
             {
                 mGuiAPI.Draw();
+            }else if (mCurrentAPIMode == APIMode.EditorGUI)
+            {
+                mEditorGUIAPI.Draw();
+            }
+            else
+            {
+                mEditorGUILayout.Draw();
             }
         }
 

@@ -41,15 +41,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/EditorFramework/Example/1.CustomEditor/Editor/CustomEditorExample.cs" />
      <Compile Include="Assets/EditorExtensions/Editor/1.MenuItemExample/MenuItemExample.cs" />
-     <Compile Include="Assets/EditorExtensions/Editor/2.IMGUIExample/IMGUIEditorWindowExample.cs" />
+     <Compile Include="Assets/EditorFramework/Example/2.GUIBase/Editor/GUIBaseExample.cs" />
+     <Compile Include="Assets/EditorExtensions/Editor/2.IMGUIExample/EditorGUIAPI.cs" />
+     <Compile Include="Assets/EditorFramework/Example/3.TypeEx/Editor/TypeExExample.cs" />
      <Compile Include="Assets/EditorFramework/Editor/RootWindow.cs" />
-     <Compile Include="Assets/EditorExtensions/Editor/2.IMGUIExample/GUILayoutAPI.cs" />
-     <Compile Include="Assets/EditorExtensions/Editor/2.IMGUIExample/GUIAPI.cs" />
+     <Compile Include="Assets/EditorFramework/Editor/CustomEditorWindowAttribute.cs" />
+     <Compile Include="Assets/EditorFramework/Editor/GUIBase.cs" />
+     <Compile Include="Assets/EditorExtensions/Editor/2.IMGUIExample/EditorGUILayoutAPI.cs" />
+     <Compile Include="Assets/EditorExtensions/Editor/2.IMGUIExample/IMGUIEditorWindowExample.cs" />
      <Folder Include="Assets/EditorExtensions/Editor" />
      <Folder Include="Assets/EditorExtensions/Editor/1.MenuItemExample" />
      <Folder Include="Assets/EditorFramework/Editor" />
+     <Folder Include="Assets/EditorFramework/Example/2.GUIBase/Editor" />
      <Folder Include="Assets/EditorExtensions/Editor/2.IMGUIExample" />
+     <Folder Include="Assets/EditorFramework/Example/1.CustomEditor/Editor" />
+     <Folder Include="Assets/EditorFramework/Example/3.TypeEx/Editor" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2020.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -697,6 +705,10 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{9092a0da-285f-33e3-fd4c-bf7cad33865a}</Project>
+      <Name>Assembly-CSharp</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
