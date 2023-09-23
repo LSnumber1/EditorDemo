@@ -6,7 +6,7 @@ using EditorFramework;
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditorWindow]
+[CustomEditorWindow(3)]
 public class TypeExExample : EditorWindow
 {
     public class DescriptionBase

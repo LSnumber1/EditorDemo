@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace EditorExtensions
 {
-    [CustomEditorWindow]
+    [CustomEditorWindow(2)]
     public class GUIBaseExample : EditorWindow
     {
          public class  Label : GUIBase
