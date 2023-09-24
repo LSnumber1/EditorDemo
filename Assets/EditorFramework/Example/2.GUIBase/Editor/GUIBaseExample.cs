@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using EditorFramework;
-using GluonGui.WorkspaceWindow.Views.WorkspaceExplorer.Configuration;
+using EditorFramework; 
 using UnityEditor;
 using UnityEngine;
 
