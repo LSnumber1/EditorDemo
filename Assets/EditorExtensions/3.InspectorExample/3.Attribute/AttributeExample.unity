@@ -328,6 +328,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eec96f1bd251d494ea93242f04959f7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Age: 0
+  Age1: 0
+  Age2: 0
+  Age3: 0
+  Comment: 
+  Comment1: ' '
+  Age4: 0
+  Age5: 0
 --- !u!4 &1805011413
 Transform:
   m_ObjectHideFlags: 0
