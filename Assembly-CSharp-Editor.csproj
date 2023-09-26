@@ -42,22 +42,32 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/EditorFramework/Example/1.CustomEditor/Editor/CustomEditorExample.cs" />
-     <Compile Include="Assets/EditorExtensions/Editor/1.MenuItemExample/MenuItemExample.cs" />
+     <Compile Include="Assets/EditorExtensions/1.MenuItemExample/Editor/MenuItemExample.cs" />
+     <Compile Include="Assets/EditorExtensions/2.IMGUIExample/Editor/IMGUIEditorWindowExample.cs" />
      <Compile Include="Assets/EditorFramework/Example/2.GUIBase/Editor/GUIBaseExample.cs" />
-     <Compile Include="Assets/EditorExtensions/Editor/2.IMGUIExample/EditorGUIAPI.cs" />
+     <Compile Include="Assets/EditorExtensions/2.IMGUIExample/Editor/EditorGUIAPI.cs" />
      <Compile Include="Assets/EditorFramework/Example/3.TypeEx/Editor/TypeExExample.cs" />
+     <Compile Include="Assets/EditorExtensions/3.InspectorExample/3.Attribute/Editor/MyAttributeDrawer.cs" />
+     <Compile Include="Assets/EditorExtensions/3.InspectorExample/2.CustomEditor/Editor/CustomEditorExampleInspector.cs" />
      <Compile Include="Assets/EditorFramework/Editor/RootWindow.cs" />
      <Compile Include="Assets/EditorFramework/Editor/CustomEditorWindowAttribute.cs" />
+     <Compile Include="Assets/EditorFramework/Example/4.DragAndDropTool/Editor/DragAndDropToolExample.cs" />
      <Compile Include="Assets/EditorFramework/Editor/GUIBase.cs" />
-     <Compile Include="Assets/EditorExtensions/Editor/2.IMGUIExample/EditorGUILayoutAPI.cs" />
-     <Compile Include="Assets/EditorExtensions/Editor/2.IMGUIExample/IMGUIEditorWindowExample.cs" />
-     <Folder Include="Assets/EditorExtensions/Editor" />
-     <Folder Include="Assets/EditorExtensions/Editor/1.MenuItemExample" />
+     <Compile Include="Assets/EditorFramework/Example/5.FolderField/Editor/FolderFieldExample.cs" />
+     <Compile Include="Assets/EditorFramework/Editor/DragAndDropTools.cs" />
+     <Compile Include="Assets/EditorExtensions/2.IMGUIExample/Editor/GUIContentAndGUIStyleExample.cs" />
+     <Compile Include="Assets/EditorExtensions/2.IMGUIExample/Editor/EditorGUILayoutAPI.cs" />
+     <Compile Include="Assets/EditorFramework/Editor/GUIContents.cs" />
+     <Folder Include="Assets/EditorExtensions/2.IMGUIExample/Editor" />
+     <Folder Include="Assets/EditorFramework/Example/4.DragAndDropTool/Editor" />
      <Folder Include="Assets/EditorFramework/Editor" />
+     <Folder Include="Assets/EditorExtensions/3.InspectorExample/3.Attribute/Editor" />
+     <Folder Include="Assets/EditorExtensions/3.InspectorExample/2.CustomEditor/Editor" />
      <Folder Include="Assets/EditorFramework/Example/2.GUIBase/Editor" />
-     <Folder Include="Assets/EditorExtensions/Editor/2.IMGUIExample" />
      <Folder Include="Assets/EditorFramework/Example/1.CustomEditor/Editor" />
      <Folder Include="Assets/EditorFramework/Example/3.TypeEx/Editor" />
+     <Folder Include="Assets/EditorExtensions/1.MenuItemExample/Editor" />
+     <Folder Include="Assets/EditorFramework/Example/5.FolderField/Editor" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2020.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

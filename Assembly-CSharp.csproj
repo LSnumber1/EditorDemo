@@ -41,18 +41,30 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/EditorExtensions/Runtime/GUILayoutAPI.cs" />
-     <Compile Include="Assets/EditorExtensions/Runtime/IMGUIRuntimeExample.cs" />
+     <Compile Include="Assets/EditorExtensions/2.IMGUIExample/Runtime/GUILayoutAPI.cs" />
+     <Compile Include="Assets/EditorExtensions/3.InspectorExample/1.ContextMenu/ContextMenuExample.cs" />
+     <Compile Include="Assets/EditorExtensions/3.InspectorExample/3.Attribute/MyAttribute.cs" />
+     <Compile Include="Assets/EditorExtensions/2.IMGUIExample/Runtime/IMGUIRuntimeExample.cs" />
+     <Compile Include="Assets/EditorExtensions/3.InspectorExample/2.CustomEditor/CustomEditorExample.cs" />
      <Compile Include="Assets/EditorFramework/TypeEx.cs" />
-     <Compile Include="Assets/EditorExtensions/Runtime/GUIAPI.cs" />
+     <Compile Include="Assets/EditorExtensions/2.IMGUIExample/Runtime/GUIAPI.cs" />
+     <Compile Include="Assets/EditorExtensions/3.InspectorExample/3.Attribute/AttributeExample.cs" />
      <Folder Include="Assets" />
-     <Folder Include="Assets/EditorExtensions/Runtime" />
+     <Folder Include="Assets/EditorFramework/Example/5.FolderField" />
+     <Folder Include="Assets/EditorExtensions/1.MenuItemExample" />
+     <Folder Include="Assets/EditorExtensions/2.IMGUIExample/Runtime" />
+     <Folder Include="Assets/EditorFramework/Example/4.DragAndDropTool" />
      <Folder Include="Assets/EditorFramework/Example/1.CustomEditor" />
      <Folder Include="Assets/EditorFramework/Example/3.TypeEx" />
      <Folder Include="Assets/EditorFramework/Example/2.GUIBase" />
      <Folder Include="Assets/EditorExtensions" />
+     <Folder Include="Assets/EditorExtensions/2.IMGUIExample" />
+     <Folder Include="Assets/EditorExtensions/3.InspectorExample/3.Attribute" />
      <Folder Include="Assets/EditorFramework/Example" />
+     <Folder Include="Assets/EditorExtensions/3.InspectorExample" />
      <Folder Include="Assets/Scenes" />
+     <Folder Include="Assets/EditorExtensions/3.InspectorExample/2.CustomEditor" />
+     <Folder Include="Assets/EditorExtensions/3.InspectorExample/1.ContextMenu" />
      <Folder Include="Assets/EditorFramework" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2020.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
