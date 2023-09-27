@@ -10,12 +10,13 @@ namespace EditorExtensions
     {
         static bool mCustomHierarchyEnabled = false;
 
+        private const string PATH = "EditorExtensions/02.IMGUI/03.Enable Custom Hierarchy";
         static HierarchyExample()
         {
-            Menu.SetChecked("EditorExtensions/03.Hierarchy/Enable Custom Hierarchy", mCustomHierarchyEnabled);
+            Menu.SetChecked(PATH, mCustomHierarchyEnabled);
         }
         
-        [MenuItem("EditorExtensions/03.Hierarchy/Enable Custom Hierarchy")]
+        [MenuItem(PATH)]
         static void EnableCustomHierarchy()
         {
             if (mCustomHierarchyEnabled)
@@ -29,7 +30,7 @@ namespace EditorExtensions
                 RegisterHierarchy();
             }
            
-            Menu.SetChecked("EditorExtensions/03.Hierarchy/Enable Custom Hierarchy", mCustomHierarchyEnabled);
+            Menu.SetChecked(PATH, mCustomHierarchyEnabled);
             
             EditorApplication.RepaintHierarchyWindow();
         }
