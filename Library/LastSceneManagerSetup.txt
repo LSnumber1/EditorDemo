@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/EditorExtensions/3.InspectorExample/3.Attribute/AttributeExample.unity
+- path: Assets/EditorExtensions/3.InspectorExample/4.ObjectPreview/ObjectPreviewExample.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

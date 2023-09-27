@@ -52,12 +52,14 @@
      <Folder Include="Assets" />
      <Folder Include="Assets/EditorFramework/Example/5.FolderField" />
      <Folder Include="Assets/EditorExtensions/1.MenuItemExample" />
+     <Folder Include="Assets/EditorExtensions/3.InspectorExample/4.ObjectPreview" />
      <Folder Include="Assets/EditorExtensions/2.IMGUIExample/Runtime" />
      <Folder Include="Assets/EditorFramework/Example/4.DragAndDropTool" />
      <Folder Include="Assets/EditorFramework/Example/1.CustomEditor" />
      <Folder Include="Assets/EditorFramework/Example/3.TypeEx" />
      <Folder Include="Assets/EditorFramework/Example/2.GUIBase" />
      <Folder Include="Assets/EditorExtensions" />
+     <Folder Include="Assets/EditorExtensions/4.HierarchyExample" />
      <Folder Include="Assets/EditorExtensions/2.IMGUIExample" />
      <Folder Include="Assets/EditorExtensions/3.InspectorExample/3.Attribute" />
      <Folder Include="Assets/EditorFramework/Example" />

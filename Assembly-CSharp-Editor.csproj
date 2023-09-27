@@ -41,7 +41,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/EditorExtensions/3.InspectorExample/4.ObjectPreview/Editor/ObjectPreviewExample.cs" />
      <Compile Include="Assets/EditorFramework/Example/1.CustomEditor/Editor/CustomEditorExample.cs" />
+     <Compile Include="Assets/EditorFramework/Editor/RectExtension.cs" />
+     <Compile Include="Assets/EditorExtensions/4.HierarchyExample/Editor/HierarchyExample.cs" />
+     <Compile Include="Assets/EditorFramework/Editor/GUIContents.cs" />
      <Compile Include="Assets/EditorExtensions/1.MenuItemExample/Editor/MenuItemExample.cs" />
      <Compile Include="Assets/EditorExtensions/2.IMGUIExample/Editor/IMGUIEditorWindowExample.cs" />
      <Compile Include="Assets/EditorFramework/Example/2.GUIBase/Editor/GUIBaseExample.cs" />
@@ -57,7 +61,7 @@
      <Compile Include="Assets/EditorFramework/Editor/DragAndDropTools.cs" />
      <Compile Include="Assets/EditorExtensions/2.IMGUIExample/Editor/GUIContentAndGUIStyleExample.cs" />
      <Compile Include="Assets/EditorExtensions/2.IMGUIExample/Editor/EditorGUILayoutAPI.cs" />
-     <Compile Include="Assets/EditorFramework/Editor/GUIContents.cs" />
+     <Folder Include="Assets/EditorExtensions/4.HierarchyExample/Editor" />
      <Folder Include="Assets/EditorExtensions/2.IMGUIExample/Editor" />
      <Folder Include="Assets/EditorFramework/Example/4.DragAndDropTool/Editor" />
      <Folder Include="Assets/EditorFramework/Editor" />
@@ -67,6 +71,7 @@
      <Folder Include="Assets/EditorFramework/Example/1.CustomEditor/Editor" />
      <Folder Include="Assets/EditorFramework/Example/3.TypeEx/Editor" />
      <Folder Include="Assets/EditorExtensions/1.MenuItemExample/Editor" />
+     <Folder Include="Assets/EditorExtensions/3.InspectorExample/4.ObjectPreview/Editor" />
      <Folder Include="Assets/EditorFramework/Example/5.FolderField/Editor" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2020.3.45f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
