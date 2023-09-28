@@ -10,7 +10,7 @@ namespace EditorFramework
         private static List<XMLGUIBase> mGUIBases = new List<XMLGUIBase>();
         private Dictionary<string, XMLGUIBase> mGUIBasesForId = new Dictionary<string, XMLGUIBase>();
 
-        public void Draw()
+        public void   Draw()
         {
             foreach (var xmlguiBase in mGUIBases)
             {

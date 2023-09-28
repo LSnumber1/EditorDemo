@@ -43,7 +43,6 @@
   <ItemGroup>
      <Compile Include="Assets/EditorExtensions/6.Scene/03.EditorTool/HelloEditorTool.cs" />
      <Compile Include="Assets/EditorExtensions/3.InspectorExample/3.Attribute/MyAttribute.cs" />
-     <Compile Include="Assets/EditorFramework/StringConvert/Converter/RectStringConverter.cs" />
      <Compile Include="Assets/EditorExtensions/3.InspectorExample/2.CustomEditor/CustomEditorExample.cs" />
      <Compile Include="Assets/EditorFramework/TypeEx.cs" />
      <Compile Include="Assets/EditorExtensions/6.Scene/02.Handles/HandlerExample.cs" />
@@ -55,10 +54,6 @@
      <Compile Include="Assets/EditorExtensions/6.Scene/01.Gizmos/GizmosExample.cs" />
      <Compile Include="Assets/EditorExtensions/2.IMGUIExample/Runtime/GUIAPI.cs" />
      <Compile Include="Assets/EditorExtensions/3.InspectorExample/3.Attribute/AttributeExample.cs" />
-     <Compile Include="Assets/EditorFramework/StringConvert/StringConverter.cs" />
-     <Compile Include="Assets/EditorFramework/StringConvert/StringConvert.cs" />
-     <Compile Include="Assets/EditorFramework/StringConvert/Converter/StringStringConverter.cs" />
-     <Compile Include="Assets/EditorFramework/StringConvert/Converter/BooleanStringConverter.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/EditorExtensions/8.EventEventAttributeExample" />
      <Folder Include="Assets/EditorFramework/Example/5.FolderField" />
@@ -72,7 +67,7 @@
      <Folder Include="Assets/EditorExtensions/6.Scene/02.Handles" />
      <Folder Include="Assets/EditorExtensions/16.TreeViewExample" />
      <Folder Include="Assets/EditorFramework/Example/7.XMLGUI" />
-     <Folder Include="Assets/EditorFramework/StringConvert/Converter" />
+     <Folder Include="Assets/EditorFramework/Example/8.SearchField" />
      <Folder Include="Assets/EditorExtensions/2.IMGUIExample/Runtime" />
      <Folder Include="Assets/EditorFramework/Example/4.DragAndDropTool" />
      <Folder Include="Assets/EditorFramework/Example/1.CustomEditor" />
@@ -88,7 +83,6 @@
      <Folder Include="Assets/EditorExtensions/5.ProjectExample/02.AssetDatabase" />
      <Folder Include="Assets/EditorExtensions/5.ProjectExample" />
      <Folder Include="Assets/EditorFramework/Example" />
-     <Folder Include="Assets/EditorFramework/StringConvert" />
      <Folder Include="Assets/EditorExtensions/7.Data/02.EditorPrefs" />
      <Folder Include="Assets/EditorExtensions/14.AdvancedDropdownExample" />
      <Folder Include="Assets/EditorExtensions/7.Data" />
