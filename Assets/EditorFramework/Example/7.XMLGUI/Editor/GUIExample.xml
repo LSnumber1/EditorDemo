@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GUI>
+    <Label>Hello XMLGUI</Label>
+    <Label>Hello XMLGUI 123</Label>
+    <Label>Hello XMLGUI 134</Label>
+    <TextField>Input Text Field</TextField>
+</GUI>
